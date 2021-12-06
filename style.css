@@ -1,0 +1,103 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.fondo-header {
+    background-image: url("assets/img/medicos.jpeg");
+}
+
+.titulo-header {
+    text-align: left;
+    color: white ;
+}
+
+.hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+
+
+
+
+h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    position: relative
+
+}
+
+
+.hero-section p{
+    color: white;
+}
+
+.contraste {
+    background: #0000004D;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.borde-redondo {
+    border-radius: 5px;
+}
+
+.logo1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3rem;
+}
+
+.card h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+.icono-social-facebook {
+    background-color: #3b5998
+}
+
+.icono-social-twitter {
+    background-color: #55acee
+}
+
+.icono-social-instagram {
+    background-color: #ac2bac
+}
+
+.logo-periodicas {
+
+}
+
+.navbar-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.fondo-footer {
+    background-color: #323232;
+}
+
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px ;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom)*/
+}
