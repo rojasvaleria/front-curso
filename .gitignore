@@ -8,6 +8,7 @@
 out
 gen
 
-DS.store
+*.DS.store
 
 
+assets/css/
