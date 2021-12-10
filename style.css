@@ -156,3 +156,7 @@ h2{
 .centradito {
     padding: 1em;
 }
+
+.leyenda {
+    text-decoration-color: green;
+}
