@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Naturaleza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-logo" href="#">
+      <img src="assets/img/logo.png"  alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Astronomía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Medicina</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Arqueología</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="naturaleza.html">Naturaleza</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tecnología</a>
+        </li>
+
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+          Suscríbete
+        </button>
+
+
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Suscríbete</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+
+                  <div class="form-group">
+                    <label for="name">¿Cuál es tu seudonimo?</label>
+                    <input type="name" class="form-control" id="name"
+                           placeholder="Juana la más bacan">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Escribe tu correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                           placeholder="juanabakana@gmail.com"
+                           aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted"><i
+                            class="fas fa-exclamation-circle"></i>  Necesitamos un email valido
+                      para enviarte nuestras noticias</small>
+                    <div class="invalid-tooltip">
+                      ¡Sin tu email no podemos enviarte noticias!
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="seleccion-temas">Selecciona tu categoria favorita</label>
+                    <select class="form-control" id="seleccion-temas">
+
+                      <option>Tecnología</option>
+                      <option>Medicina</option>
+                      <option>Astronomía</option>
+                      <option>Naturaleza</option>
+                      <option>Arqueología</option>
+                      <option>Nada, nose que hago con mi vida</option>
+                    </select>
+
+                    <br>
+
+                    <div class="form-group">
+                      <label for="comentario">Escribe tu comentario sobre la página web</label>
+                      <textarea class="form-control" id="comentario" rows="3"
+                                placeholder="Ej: Me encanta este sitio, es el mejor de todos"></textarea>
+                    </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        data-toggle="tooltip" data-placement="top"
+                        title="¡No me cierres!">Cerrar</button>
+                <button type="button" class="btn btn-primary">Enviar suscripción</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+  <br>
+
+  <div class="container-fluid">
+
+    <div class="card bg-dark text-white">
+      <img class="card-img" src="assets/img/naturaleza-2.jpeg" alt="Card image">
+      <div class="card-img-overlay contraste">
+        <h5 class="card-title">El Parque de Picos de Europa tendrá en 2022 más de 10 millones de presupuesto</h5>
+        <p class="card-text">La llegada de fondos europeos permitirá al Parque Nacional de los Picos de Europa contar
+          el próximo año con un presupuesto “histórico”, que superará los 10 millones de euros.</p>
+        <p class="card-text"><i class="far fa-clock"></i> 17 de noviembre del 2021</p>
+      </div>
+    </div>
+
+<br>
+
+
+      <h2>Lee las últimas noticias sobre Naturaleza</h2>
+
+
+    <hr class="linea-color-verde">
+
+    <br>
+
+
+    <div class="card-deck">
+
+      <div class="card">
+        <img class="card-img" src="assets/img/astronomia-3.jpeg" alt="Noticia sobre naturaleza">
+        <div class="card-img-overlay">
+          <a href="naturaleza.html" class="badge badge-success">Naturaleza</a>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Así se vio el eclipse parcial de Luna más largo en 600 años</h3>
+          <p class="card-text">El eclipse solar total del 4 de diciembre será especialmente visible desde el continente antártico y desde allí lo van a observar varios científicos de la Universidad de Chile.</p>
+          <br>
+          <p class="card-text"><small class="text-muted"><i class="fas fa-user"></i> Escrito por
+            Valeria Rojas M</small></p>
+          <p class="card-text"><small class="text-muted"><i class="far fa-clock"></i>  9 de noviembre
+            del 2021</small></p>
+          <button type="button" class="btn btn-outline-dark">Continuar leyendo</button>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img class="card-img" src="assets/img/naturaleza-4.jpeg" alt="Noticia sobre naturaleza">
+        <div class="card-img-overlay">
+          <a href="naturaleza.html" class="badge badge-success">Naturaleza</a>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Así se vio el eclipse parcial de Luna más largo en 600 años</h3>
+          <p class="card-text">El eclipse solar total del 4 de diciembre será especialmente visible desde el continente antártico y desde allí lo van a observar varios científicos de la Universidad de Chile.</p>
+          <br>
+          <p class="card-text"><small class="text-muted"><i class="fas fa-user"></i> Escrito por
+            Valeria Rojas M</small></p>
+          <p class="card-text"><small class="text-muted"><i class="far fa-clock"></i>  9 de noviembre
+            del 2021</small></p>
+          <button type="button" class="btn btn-light">Continuar leyendo</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="assets/img/naturaleza-5.jpeg" alt="Noticia sobre naturaleza">
+        <div class="card-img-overlay">
+          <a href="naturaleza.html" class="badge badge-success">Naturaleza</a>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Así se vio el eclipse parcial de Luna más largo en 600 años</h3>
+          <p class="card-text">El eclipse solar total del 4 de diciembre será especialmente visible desde el continente antártico y desde allí lo van a observar varios científicos de la Universidad de Chile.</p>
+          <br>
+          <p class="card-text"><small class="text-muted"><i class="fas fa-user"></i> Escrito por
+            Valeria Rojas M</small></p>
+          <p class="card-text"><small class="text-muted"><i class="far fa-clock"></i>  9 de noviembre
+            del 2021</small></p>
+          <button type="button" class="btn btn-light">Continuar leyendo</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+  <footer class="bg-light text-center text-white">
+
+    <div class="container p-4 pb-0">
+
+      <section class="mb-4">
+        <a
+                class="btn btn-black btn-floating m-1 icono-social-facebook"
+                href="https://www.facebook.com/"
+        ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <a class="btn btn-black btn-floating m-1 icono-social-twitter"
+           href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+
+        <a class="btn btn-black btn-floating m-1 icono icono-social-instagram"
+           href="https://www.instagram.com/periodicas.cl/"><i class="fab fa-instagram"></i></a>
+      </section>
+
+    </div>
+
+
+
+    <div class="text-center p-3 bg-dark">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Periodicas.cl</a>
+    </div>
+
+  </footer>
+  </div>
+
+
+
+<script $('#myCarousel').on('slide.bs.carousel', function () {
+  // do something…
+  })>
+
+</body>
+</html>
